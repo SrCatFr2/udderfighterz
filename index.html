@@ -1,62 +1,101 @@
-
 <!doctype html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  >
+
   <meta name="theme-color" content="#08090d">
-  <meta name="description" content="Udder Fighterz - 2D Pixel Fighting Game">
+
+  <meta
+    name="description"
+    content="Udder Fighterz - 2D Pixel Fighting Game"
+  >
+
   <title>Udder Fighterz</title>
 </head>
+
 <body>
   <main id="app">
+
     <header class="topbar">
+
       <div class="brand">
         <span class="brand-mark">UF</span>
+
         <div>
           <strong>UDDER FIGHTERZ</strong>
           <small>COMBAT PROTOTYPE 0.1</small>
         </div>
       </div>
-      <span class="status"><i></i> LOCAL BUILD</span>
+
+      <span class="status">
+        <i></i>
+        LOCAL BUILD
+      </span>
+
     </header>
 
     <section class="game-shell">
+
       <div class="game-heading">
+
         <div>
           <span class="eyebrow">ARCADE MODE</span>
           <h1>TRAINING ARENA</h1>
         </div>
+
         <span class="version">BUILD 001</span>
+
       </div>
 
       <div id="game-container">
+
         <div id="game"></div>
+
         <div class="mobile-controls">
+
           <div class="movement">
+
             <button data-control="left">◀</button>
             <button data-control="right">▶</button>
+
           </div>
+
           <div class="actions">
+
             <button data-control="jump">JUMP</button>
             <button data-control="light">LIGHT</button>
             <button data-control="heavy">HEAVY</button>
+            <button data-control="special">SPECIAL</button>
             <button data-control="block">BLOCK</button>
+            <button data-control="crouch">DUCK</button>
+
           </div>
+
         </div>
+
       </div>
 
       <div class="game-footer">
+
         <span>PLAYER 01 <b>VS</b> CPU</span>
         <span>BEST OF 3 ROUNDS</span>
+
       </div>
+
     </section>
 
     <footer>
       UDDER FIGHTERZ © 2026 · EARLY DEVELOPMENT
     </footer>
+
   </main>
 
   <script type="module" src="/src/main.js"></script>
+
 </body>
 </html>
